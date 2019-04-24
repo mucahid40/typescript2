@@ -5,7 +5,9 @@ import Controller from "./controller";
 const port = process.env.PORT || 4000;
 
 const app = createKoaServer({
-  controllers: [Controller]
+  controllers: [
+    Controller
+  ]
 });
 
 app.listen(port, () => console.log(`listening on port ${port}`));
