@@ -1,12 +1,12 @@
 import "reflect-metadata";
 import { createKoaServer } from "routing-controllers";
-import Controller from "./controller";
+import PageController from './pages/controller';
 
 const port = process.env.PORT || 4000;
 
 const app = createKoaServer({
   controllers: [
-    Controller
+    PageController
   ]
 });
 
