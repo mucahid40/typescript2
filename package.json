@@ -5,9 +5,11 @@
   "main": "target/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile": "tsc -w",
     "start": "node .",
     "postinstall": "tsc -p"
+  },
+  "engines": {
+    "node": ""
   },
   "keywords": [],
   "author": "",
